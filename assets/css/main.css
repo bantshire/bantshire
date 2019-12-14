@@ -219,6 +219,34 @@ input, select, textarea {
 		font-size: 0.7em;
 	}
 
+	#wordbox {
+	    /*opacity: 0;*/
+	    margin: 10px auto 0;
+	    display: block;
+	    width: 600px;
+	    height: 30px;
+	    font-size: 18px;
+	    text-align: center;
+	    background: #fff;
+	    border-radius: 6px;
+	    color: #black;
+	    transition: 1s linear;
+	}
+
+	#button {
+	  background: #0b7fba;
+	    border: 0;
+	    color: #fff;
+	    font-size: 20px;
+	    padding: 1em 2em;
+	    cursor: pointer;
+	    margin: 0 auto 60px;
+	    display: block;
+	    text-align: center;
+	    border-radius: 6px;
+	    font-weight: bold;
+	}
+
 	@media screen and (max-width: 1680px) {
 
 		h1 {
